@@ -1,11 +1,8 @@
-body {
-  position: relative;
-}
 
 .ofrecer h3 {
   font-size: 2.5em;
   font-weight: bold;
-  color: #000;
+  color: rgb(255, 255, 255);
   margin-bottom: 0;
 }
 .ofrecer p {
@@ -59,8 +56,8 @@ body {
   font-size: 15px;
 }
 .img_flofli {
-  background-color: aqua !important;
-  width: 70%;
+ 
+  width: 50%;
   height: 70%;
 }
 .redes {
@@ -89,6 +86,12 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
   margin: 0 auto;
+  background-image: url("img/fondoPrincipal.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #e3ffe2;
+
 }
 .nav-P h3 {
   font-size: 50px;
@@ -113,22 +116,24 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-
   padding: 10px;
+ 
 }
 .nav-P h4 a {
+
   text-decoration: none;
   padding: 10px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(63, 231, 253);
+  color: rgb(255, 255, 255);
 }
 .nav-P h4 a:hover {
   text-decoration: none;
   padding: 10px;
-  border-color: #0d6efd;
-  background-color: #0d6efd;
-  color: #000;
+  border-color: #f6f9ff;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 
 .Q_somos{
@@ -226,6 +231,13 @@ font-weight: 500;
 .apoyo .aliados_img {
   width: 50%;
   height: 150px;
-  margin: auto 0;
+
   
+}
+.bgcolor{
+  background-color:#02356c;
+}
+body{
+  background-color: #02356c!important;
+  color: #fff!important;
 }
