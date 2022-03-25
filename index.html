@@ -7,37 +7,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  
+
   <!-- Bootstrap CSS v5.0.2 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
 
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <!-- nav -->
-    <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
+    <div class="row sticky-top" id="navbar-example">
+      <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary " id="navbar-example2">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">PsychobotTech</a>
+          <a class="navbar-brand text-white" href="#">PsychobotTech</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class=" collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+          <div class=" collapse navbar-collapse justify-content-end" id="navbar-example2">
+            <ul class="navbar-nav nav nav-pills" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#abouts">Abouts</a>
+                <a class="nav-link text-white" href="#abouts">Abouts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#products">Products</a>
+                <a class="nav-link text-white" href="#products">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">contact</a>
+                <a class="nav-link text-white" href="#contact">contact</a>
               </li>
 
             </ul>
@@ -194,7 +194,7 @@
             <div class="col-md-4 equipo_img">
               <div class="text-center  m-3">
                 <img alt="Bootstrap Image Preview" src="img/Richard_Mauri_Ñope_Giraldo.jfif"
-                class="img-thumbnail img_integrante" />
+                  class="img-thumbnail img_integrante" />
                 <div class="text_integrantes">
 
                   <h3 class="text-center p-3">
@@ -202,7 +202,7 @@
                   </h3>
                   <p class="text-center ">
                     <strong> Ing. Mecatrónica</strong></br>
-                    
+
                     Trabajó en empresas dedicadas al área de electrónica y electricidad, desarrollo de proyectos,
                     voluntariados en Hack Space, Código sobre ruedas. Actualmente laborando en INDRA Perú.
                   </p>
@@ -226,13 +226,13 @@
                   COIPSI, ASPAT PERÚ e IPIP. Actualmente laborando en Educterapia.
                 </p>
               </div>
-            </div> 
+            </div>
             <div class="col-md-4 equipo_img">
               <div class="text-center m-3">
                 <img alt="Bootstrap Image Preview" src="img/Angela_Mónica_soto_quilca.jfif"
-                class="img-thumbnail img_integrante" />
+                  class="img-thumbnail img_integrante" />
                 <div class="text_integrantes">
-                  
+
                   <h3 class="text-center p-3">
                     Angela Mónica soto quilca
                   </h3>
@@ -251,7 +251,7 @@
             <div class="col-md-4 equipo_img">
               <div class="text-center m-3">
                 <img alt="Bootstrap Image Preview" src="img/Alex_Javier_Castillo_Becerra.jfif"
-                class="img-thumbnail img_integrante" />
+                  class="img-thumbnail img_integrante" />
                 <div class="">
                   <h3 class="text-center p-3">
                     Alex Javier Castillo Becerra
@@ -265,7 +265,7 @@
                     Perú de Paz y Esperanza.
                   </p>
                 </div>
-                
+
               </div>
             </div>
             <div class="col-md-4 equipo_img">
@@ -316,8 +316,9 @@
     <!-- fin about -->
     <!-- products -->
     <div id="products" class="products">
-      <div class="col-md-12 ">
-        <h3 class="p-3 text-center">productos
+      <div class="col-md-12 prodes">
+        <h3 class="p-3 text-center pres">
+          productos
         </h3>
         <div class=" flexx ">
           <img alt="Bootstrap Image Preview" src="img/floffli.jfif" class="img_flofli" />
@@ -337,7 +338,7 @@
         <div class="col-md-12">
           <div class="row">
             <div class="col-md-12 ">
-              <div class="container text-center">
+              <div class="container text-center cont">
                 <h3 class=" p-3">
                   Contact
                 </h3>
@@ -407,19 +408,19 @@
       <div class="col-md-12">
 
         <div class="row p-3">
-          <div class="col-md-12">
+          <div class="col-md-12 m-3">
             <h3 class="text-left text-muted">
               Nuestros aliados
             </h3>
-            <div class="row ">
-              <div class="col-md-4 ">
-                <img alt="coram_Peru" class=" aliados_img" src="img/coram_Peru.jfif" />
+            <div class="row p-3 ">
+              <div class="col-md-4 col-sm-12 text-end text-sm-center p-sm-3">
+                <img alt="coram_Peru" class="aliados_img" src="img/coram_Peru.jfif" />
               </div>
-              <div class="col-md-4 ">
-                <img alt="BtSpace" class=" aliados_img" src="img/BtSpace.jfif" />
+              <div class="col-md-4 text-center p-sm-3">
+                <img alt="BtSpace" class="aliados_img" src="img/BtSpace.jfif" />
               </div>
-              <div class="col-md-4 ">
-                <img alt="VillaControl" class=" aliados_img" src="img/VillaControl.jfif" />
+              <div class="col-md-4 text-left text-sm-center p-sm-3">
+                <img alt="VillaControl" class="aliados_img" src="img/VillaControl.jfif" />
               </div>
 
             </div>
@@ -427,17 +428,12 @@
         </div>
       </div>
     </div>
-    <footer class="footer mt-auto py-3 bg-light">
-<h5 class="text-center">PsychbotTech S.A.A.</h5>
-    </footer>
   </div>
+  <footer class="footer mt-auto py-3 bg-light">
+    <h5 class="text-center">PsychbotTech S.A.A.</h5>
+  </footer>
 
 
-
-
-  <!-- about -->
-  <!-- products -->
-  <!-- contact -->
 
 
 
