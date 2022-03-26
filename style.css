@@ -1,8 +1,7 @@
-
 .ofrecer h3 {
   font-size: 2.5em;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  
   margin-bottom: 0;
 }
 .ofrecer p {
@@ -27,14 +26,17 @@
   margin-bottom: 10px;
 }
 .img_server {
-  width: 90% !important;
+  width: 80% !important;
   height: 300px;
-  margin: 0 40px;
+  margin: 0px 70px;
 }
 .txt_server {
   margin: 0 auto;
 }
-.homes ,.abouts ,.contact,.products {
+.homes,
+.abouts,
+.contact,
+.products {
   padding-bottom: 50px;
   border-bottom: 1px double rgb(194, 190, 190);
 }
@@ -56,9 +58,8 @@
   font-size: 15px;
 }
 .img_flofli {
- 
-  width: 50%;
-  height: 70%;
+  width: 35%;
+  height: 100%;
 }
 .redes {
   width: 100%;
@@ -91,7 +92,6 @@
   background-position: center;
   background-repeat: no-repeat;
   color: #e3ffe2;
-
 }
 .nav-P h3 {
   font-size: 50px;
@@ -117,10 +117,8 @@
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
- 
 }
 .nav-P h4 a {
-
   text-decoration: none;
   padding: 10px;
   border-style: solid;
@@ -136,29 +134,28 @@
   color: rgb(0, 0, 0);
 }
 
-.Q_somos{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
-    align-items: center !important;
+.Q_somos {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
 }
-.Q_somos h3{
-    font-size: 2.5em;
-    text-transform: capitalize;
-    font-style: italic;
-    padding: 5px;
-    margin-bottom: 10px;
+.Q_somos h3 {
+  font-size: 2.5em;
+  text-transform: capitalize;
+  font-style: italic;
+  padding: 5px;
+  margin-bottom: 10px;
 }
-.Q_somos p{
-    font-size: 1.3em;
-    text-transform: capitalize;
-    font-style: italic;
-    padding: 5px;
-    margin-bottom: 10px;
+.Q_somos p {
+  font-size: 1.3em;
+  font-style: italic;
+  padding: 5px;
+  margin-bottom: 10px;
 }
-.prodes{
+.prodes {
   width: 100%;
   height: 600px;
 
@@ -167,53 +164,49 @@
   justify-content: center !important;
   align-items: center !important;
 }
-.pres{
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
-}
-.equipo_img img{
-    width: 100%;
-height: 300px;
-border-color: #e3ffe2;
-border-width: 4px;
-}
-.equipo_img h3{
-font-size: 25px;
-font-weight: bold;
 
+.equipo_img img {
+  height: 300px;
+  border-color: #e3ffe2;
+  border-width: 4px;
 }
-.equipo_img p strong{
-font-size: 20px;
-font-weight: bold;
 
-}
-.equipo_img p{
-font-size: 15px;
-font-weight: 500;
 
+.equipo_img h3 {
+  font-size: 25px;
+  font-weight: bold;
 }
-.products h3
-{
-  font-size: 2.5em;
-  text-transform: capitalize;
-  font-style: italic;
-  padding: 5px;
-  margin-bottom: 10px;
+.equipo_img p strong {
+  font-size: 20px;
+  font-weight: bold;
 }
-.contact h3
-{
+.equipo_img p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.products h3 {
   font-size: 2.5em;
   text-transform: uppercase;
   font-style: italic;
   padding: 5px;
   margin-bottom: 10px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
 }
-.cont{
+.fflos h4{
+  font-size: 35px;
+}
+.contact h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-style: italic;
+  padding: 5px;
+  margin-bottom: 10px;
+  
+}
+.cont {
   width: 100%;
   height: 250px;
   display: flex;
@@ -221,9 +214,8 @@ font-weight: 500;
   justify-content: center !important;
   align-items: center !important;
 }
-.contact p{
+.contact p {
   font-size: 1.3em;
-  text-transform: capitalize;
   font-style: italic;
   padding: 5px;
   margin-bottom: 10px;
@@ -231,13 +223,7 @@ font-weight: 500;
 .apoyo .aliados_img {
   width: 50%;
   height: 150px;
-
-  
 }
-.bgcolor{
-  background-color:#02356c;
-}
-body{
-  background-color: #02356c!important;
-  color: #fff!important;
+.bgcolor {
+  background-color: #02356c;
 }
